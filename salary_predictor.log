@@ -1,0 +1,99 @@
+2026-06-04 23:48:14,859 - INFO - Employee Salary Predictor - Starting Application
+2026-06-04 23:48:14,860 - INFO - ==================================================
+2026-06-04 23:48:14,860 - INFO - Starting model training...
+2026-06-04 23:48:14,860 - INFO - Generating 500 synthetic samples...
+2026-06-04 23:48:14,887 - INFO - Generated data shape: (500, 7)
+2026-06-04 23:48:14,890 - INFO - Fitted encoder for education_level
+2026-06-04 23:48:14,891 - INFO - Fitted encoder for job_role
+2026-06-04 23:48:14,891 - INFO - Fitted encoder for department
+2026-06-04 23:48:14,896 - INFO - Training set: (400, 6), Test set: (100, 6)
+2026-06-04 23:48:14,899 - INFO - Training Gradient Boosting model...
+2026-06-04 23:48:14,977 - INFO - Train R² Score: 0.9981
+2026-06-04 23:48:14,977 - INFO - Test R² Score: 0.9493
+2026-06-04 23:48:14,977 - INFO - Test RMSE: $7605.26
+2026-06-04 23:48:14,977 - INFO - Test MAE: $6293.44
+2026-06-04 23:48:14,979 - INFO - Top 3 Important Features:
+2026-06-04 23:48:14,980 - INFO -   job_role: 0.5223
+2026-06-04 23:48:14,980 - INFO -   years_experience: 0.2610
+2026-06-04 23:48:14,980 - INFO -   education_level: 0.1924
+2026-06-04 23:48:14,980 - INFO - Model training completed successfully!
+2026-06-04 23:48:14,980 - INFO - ==================================================
+2026-06-04 23:48:14,989 - INFO - Model saved to salary_model.joblib
+2026-06-04 23:48:14,989 - INFO - 
+==================================================
+2026-06-04 23:48:14,989 - INFO - Testing predictions with sample employees:
+2026-06-04 23:48:14,989 - INFO - ==================================================
+2026-06-04 23:48:14,993 - INFO - Prediction for {'years_experience': 5, 'education_level': 'Bachelor', 'job_role': 'Developer', 'department': 'Engineering', 'performance_score': 4.2, 'certifications_count': 2}: $86161.22
+2026-06-04 23:48:14,993 - INFO - Employee 1 - Predicted Salary: $86,161.22
+2026-06-04 23:48:14,995 - INFO - Prediction for {'years_experience': 15, 'education_level': 'Master', 'job_role': 'Manager', 'department': 'Engineering', 'performance_score': 4.8, 'certifications_count': 5}: $144295.90
+2026-06-04 23:48:14,996 - INFO - Employee 2 - Predicted Salary: $144,295.90
+2026-06-04 23:48:14,999 - INFO - Prediction for {'years_experience': 20, 'education_level': 'PhD', 'job_role': 'Director', 'department': 'Finance', 'performance_score': 4.9, 'certifications_count': 8}: $201094.47
+2026-06-04 23:48:15,000 - INFO - Employee 3 - Predicted Salary: $201,094.47
+2026-06-04 23:48:15,000 - INFO - ==================================================
+2026-06-04 23:48:15,000 - INFO - Application completed successfully!
+2026-06-04 23:50:02,529 - INFO - Employee Salary Predictor - Starting Application
+2026-06-04 23:50:02,530 - INFO - ==================================================
+2026-06-04 23:50:02,530 - INFO - Starting model training...
+2026-06-04 23:50:02,530 - INFO - Generating 500 synthetic samples...
+2026-06-04 23:50:02,535 - INFO - Generated data shape: (500, 7)
+2026-06-04 23:50:02,537 - INFO - Fitted encoder for education_level
+2026-06-04 23:50:02,537 - INFO - Fitted encoder for job_role
+2026-06-04 23:50:02,538 - INFO - Fitted encoder for department
+2026-06-04 23:50:02,540 - INFO - Training set: (400, 6), Test set: (100, 6)
+2026-06-04 23:50:02,543 - INFO - Training Gradient Boosting model...
+2026-06-04 23:50:02,618 - INFO - Train R² Score: 0.9981
+2026-06-04 23:50:02,618 - INFO - Test R² Score: 0.9493
+2026-06-04 23:50:02,619 - INFO - Test RMSE: $7605.26
+2026-06-04 23:50:02,619 - INFO - Test MAE: $6293.44
+2026-06-04 23:50:02,620 - INFO - Top 3 Important Features:
+2026-06-04 23:50:02,620 - INFO -   job_role: 0.5223
+2026-06-04 23:50:02,620 - INFO -   years_experience: 0.2610
+2026-06-04 23:50:02,621 - INFO -   education_level: 0.1924
+2026-06-04 23:50:02,621 - INFO - Model training completed successfully!
+2026-06-04 23:50:02,621 - INFO - ==================================================
+2026-06-04 23:50:02,627 - INFO - Model saved to salary_model.joblib
+2026-06-04 23:50:02,627 - INFO - 
+==================================================
+2026-06-04 23:50:02,627 - INFO - Testing predictions with sample employees:
+2026-06-04 23:50:02,627 - INFO - ==================================================
+2026-06-04 23:50:02,629 - INFO - Prediction for {'years_experience': 5, 'education_level': 'Bachelor', 'job_role': 'Developer', 'department': 'Engineering', 'performance_score': 4.2, 'certifications_count': 2}: $86161.22
+2026-06-04 23:50:02,630 - INFO - Employee 1 - Predicted Salary: $86,161.22
+2026-06-04 23:50:02,634 - INFO - Prediction for {'years_experience': 15, 'education_level': 'Master', 'job_role': 'Manager', 'department': 'Engineering', 'performance_score': 4.8, 'certifications_count': 5}: $144295.90
+2026-06-04 23:50:02,634 - INFO - Employee 2 - Predicted Salary: $144,295.90
+2026-06-04 23:50:02,637 - INFO - Prediction for {'years_experience': 20, 'education_level': 'PhD', 'job_role': 'Director', 'department': 'Finance', 'performance_score': 4.9, 'certifications_count': 8}: $201094.47
+2026-06-04 23:50:02,637 - INFO - Employee 3 - Predicted Salary: $201,094.47
+2026-06-04 23:50:02,637 - INFO - ==================================================
+2026-06-04 23:50:02,637 - INFO - Application completed successfully!
+2026-06-04 23:51:59,753 - INFO - Employee Salary Predictor - Starting Application
+2026-06-04 23:51:59,753 - INFO - ==================================================
+2026-06-04 23:51:59,753 - INFO - Starting model training...
+2026-06-04 23:51:59,753 - INFO - Generating 500 synthetic samples...
+2026-06-04 23:51:59,756 - INFO - Generated data shape: (500, 7)
+2026-06-04 23:51:59,757 - INFO - Fitted encoder for education_level
+2026-06-04 23:51:59,758 - INFO - Fitted encoder for job_role
+2026-06-04 23:51:59,759 - INFO - Fitted encoder for department
+2026-06-04 23:51:59,762 - INFO - Training set: (400, 6), Test set: (100, 6)
+2026-06-04 23:51:59,769 - INFO - Training Gradient Boosting model...
+2026-06-04 23:51:59,841 - INFO - Train R² Score: 0.9981
+2026-06-04 23:51:59,842 - INFO - Test R² Score: 0.9493
+2026-06-04 23:51:59,842 - INFO - Test RMSE: $7605.26
+2026-06-04 23:51:59,843 - INFO - Test MAE: $6293.44
+2026-06-04 23:51:59,844 - INFO - Top 3 Important Features:
+2026-06-04 23:51:59,844 - INFO -   job_role: 0.5223
+2026-06-04 23:51:59,844 - INFO -   years_experience: 0.2610
+2026-06-04 23:51:59,844 - INFO -   education_level: 0.1924
+2026-06-04 23:51:59,844 - INFO - Model training completed successfully!
+2026-06-04 23:51:59,844 - INFO - ==================================================
+2026-06-04 23:51:59,851 - INFO - Model saved to salary_model.joblib
+2026-06-04 23:51:59,852 - INFO - 
+==================================================
+2026-06-04 23:51:59,852 - INFO - Testing predictions with sample employees:
+2026-06-04 23:51:59,852 - INFO - ==================================================
+2026-06-04 23:51:59,854 - INFO - Prediction for {'years_experience': 5, 'education_level': 'Bachelor', 'job_role': 'Developer', 'department': 'Engineering', 'performance_score': 4.2, 'certifications_count': 2}: $86161.22
+2026-06-04 23:51:59,855 - INFO - Employee 1 - Predicted Salary: $86,161.22
+2026-06-04 23:51:59,857 - INFO - Prediction for {'years_experience': 15, 'education_level': 'Master', 'job_role': 'Manager', 'department': 'Engineering', 'performance_score': 4.8, 'certifications_count': 5}: $144295.90
+2026-06-04 23:51:59,857 - INFO - Employee 2 - Predicted Salary: $144,295.90
+2026-06-04 23:51:59,859 - INFO - Prediction for {'years_experience': 20, 'education_level': 'PhD', 'job_role': 'Director', 'department': 'Finance', 'performance_score': 4.9, 'certifications_count': 8}: $201094.47
+2026-06-04 23:51:59,860 - INFO - Employee 3 - Predicted Salary: $201,094.47
+2026-06-04 23:51:59,860 - INFO - ==================================================
+2026-06-04 23:51:59,861 - INFO - Application completed successfully!
